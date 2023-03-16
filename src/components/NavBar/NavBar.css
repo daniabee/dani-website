@@ -1,0 +1,48 @@
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  position: absolute;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.325);
+  height: 8%;
+  margin-top: 0;
+}
+
+.link {
+  text-decoration: none;
+  display: inline;
+  padding: 2rem 2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: rgb(123, 0, 255);
+}
+
+/* scroll to top button */
+.top-btn-position {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+}
+
+.top-btn-style {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.top-btn-style:hover {
+  animation: none;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #fff;
+}

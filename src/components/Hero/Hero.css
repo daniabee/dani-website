@@ -1,0 +1,49 @@
+.hero {
+  height: 100vh;
+  width: auto;
+  background: URL("../assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 70vw;
+  background-color: rgba(0, 0, 0, 0.466);
+  border-radius: 2rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.welcome {
+  margin-left: 5%;
+  color: rgb(240, 248, 255);
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+.greeting {
+  margin-left: 15%;
+  margin-top: 0;
+  color: rgb(240, 248, 255);
+  font-size: 6rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+}
+
+.github {
+  height: 10vh;
+}

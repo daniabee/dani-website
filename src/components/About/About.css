@@ -1,0 +1,9 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  height: 80vh;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
