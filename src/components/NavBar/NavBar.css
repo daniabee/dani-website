@@ -47,3 +47,10 @@
   color: #fff;
   border: 2px solid #fff;
 }
+
+.socials {
+  justify-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

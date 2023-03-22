@@ -1,8 +1,14 @@
 .github {
-  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: auto;
+  color: aliceblue;
 }
 
 .item {
-  height: 20vh;
+  height: 5vh;
   width: auto;
+  margin-left: 2rem;
 }

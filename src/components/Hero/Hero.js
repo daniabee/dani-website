@@ -1,5 +1,4 @@
 import "./Hero.css";
-import GithubIcon from "../Icons/GithubIcon";
 
 const Hero = () => {
   return (
@@ -10,7 +9,6 @@ const Hero = () => {
           <h1 className="greeting">I'M DANI BAGLEY.</h1>
         </div>
       </div>
-      <GithubIcon />
     </div>
   );
 };

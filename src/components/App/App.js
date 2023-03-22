@@ -19,7 +19,6 @@ function App() {
     <div className="App">
       <Routes>
         <Route
-          exact
           path="/"
           element={
             <div className="App">

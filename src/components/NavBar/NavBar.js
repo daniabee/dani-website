@@ -1,5 +1,9 @@
 import "./NavBar.css";
 import { NavLink } from "react-router-dom";
+import GithubIcon from "../Icons/GithubIcon";
+import LinkedInIcon from "../Icons/LinkedInIcon";
+import InstagramIcon from "../Icons/InstagramIcon";
+import FacebookIcon from "../Icons/FacebookIcon";
 
 const NavBar = ({ about, resume, portfolio, contact }) => {
   const scrollToSection = (elementRef) => {
@@ -39,6 +43,20 @@ const NavBar = ({ about, resume, portfolio, contact }) => {
       >
         CONTACT
       </NavLink>
+      <div className="socials">
+        <a href={"https://github.com/daniabee"}>
+          <GithubIcon />
+        </a>
+        <a href={"https://www.linkedin.com/in/dani-bagley-798463116/"}>
+          <LinkedInIcon />
+        </a>
+        <a href={"https://www.instagram.com/dani_bagelz/?hl=en"}>
+          <InstagramIcon />
+        </a>
+        <a href={"https://www.facebook.com/daniabee/"}>
+          <FacebookIcon />
+        </a>
+      </div>
     </div>
   );
 };
