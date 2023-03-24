@@ -12,3 +12,7 @@
   width: auto;
   margin-left: 2rem;
 }
+
+.item:hover {
+  color: #66ccff;
+}

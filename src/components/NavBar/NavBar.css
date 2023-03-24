@@ -2,12 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: aliceblue;
   position: absolute;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.325);
   height: 8%;
   margin-top: 0;
+  background-color: rgb(255, 38, 70);
+  box-shadow: 0 0 1em 0.5em rgb(255, 38, 70);
 }
 
 .link {
@@ -21,7 +21,7 @@
 }
 
 .link:hover {
-  color: rgb(123, 0, 255);
+  color: #66ccff;
 }
 
 /* scroll to top button */
