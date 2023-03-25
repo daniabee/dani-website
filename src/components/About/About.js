@@ -4,13 +4,17 @@ import image2 from "../assets/img2.JPG";
 
 const About = ({ about }) => {
   return (
-    <div ref={about} className="about">
-      <div className="images">
-        <img className="img1" src={image1} />
-        <img className="img2" src={image2} />
-      </div>
-      <div className="bio">
-        <h2>About me</h2>
+    <div ref={about} className="aboutPage">
+      <div className="about">
+        <div className="images">
+          <img className="img1" src={image1} />
+          <img className="img2" src={image2} />
+        </div>
+        <div className="bio">
+          <h2>About me</h2>
+          <h3>Location: Denver, CO</h3>
+          <h3>Age: 25</h3>
+        </div>
       </div>
     </div>
   );

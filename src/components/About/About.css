@@ -1,11 +1,21 @@
+.aboutPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .about {
-  margin: 3%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2%;
-  height: 85vh;
-  /* background-color: rgba(0, 0, 0, 0.227); */
+  margin: 5%;
+  margin-bottom: 30rem;
+  margin-top: 30rem;
+  padding: 3%;
+  height: 50vh;
+  width: 80vw;
+  background-color: rgb(255, 115, 136);
   color: aliceblue;
   border-radius: 1rem;
 }
@@ -23,7 +33,7 @@
   width: 22vw;
   transform: rotate(0.01turn);
   position: absolute;
-  box-shadow: 0 3em 2em 0.75em rgb(255, 38, 70);
+  box-shadow: 0 3em 2em 0.75em rgb(255, 38, 70, 0.5);
   margin-left: 2%;
   margin-top: 2%;
 }
@@ -32,13 +42,15 @@
   position: relative;
   width: 11vw;
   transform: rotate(-0.01turn);
-  box-shadow: -1em -0.5em 1.5em 0.2em rgb(255, 38, 70);
+  box-shadow: -1em -0.5em 1.5em 0.2em rgba(255, 38, 71, 0.5);
 }
 
 .bio {
-  width: 80vw;
-  justify-self: center;
-  align-items: center;
   display: flex;
+  height: 70vh;
+  position: absolute;
+  width: 80vw;
+  justify-content: flex-start;
+  align-items: center;
   flex-direction: column;
 }
