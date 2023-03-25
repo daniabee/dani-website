@@ -18,6 +18,7 @@
   background-color: rgb(255, 115, 136);
   color: aliceblue;
   border-radius: 1rem;
+  box-shadow: 0 1em 3em 1em rgb(255, 38, 70);
 }
 
 .images {
@@ -26,7 +27,7 @@
   height: 80vh;
   justify-self: center;
   flex-direction: column;
-  margin: 1%;
+  margin: 2%;
 }
 
 .img1 {
@@ -35,7 +36,7 @@
   position: absolute;
   box-shadow: 0 3em 2em 0.75em rgb(255, 38, 70, 0.5);
   margin-left: 2%;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 .img2 {
@@ -50,7 +51,7 @@
   height: 70vh;
   position: absolute;
   width: 80vw;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
