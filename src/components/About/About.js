@@ -11,29 +11,29 @@ const About = ({ about }) => {
           <img className="img2" src={image2} />
         </div>
         <div className="bio">
-          <h2>About me</h2>
-          <h3>Location: Denver, CO</h3>
-          <h3>Age: 25</h3>
+          <h2 className="bioTitle">SOFTWARE ENGINEER</h2>
+          <h2 className="bioTitle">GRAPHIC DESIGNER</h2>
+          <h2 className="bioTitle">ARTIST</h2>
+          <p className="paragraph">
+            Hi there, I'm Dani! I'm a Full Stack Software Engineer and artist
+            based in Denver, CO. With a passion for creativity and design, I
+            specialize in crafting digital experiences that engage users and
+            deliver results. From a young age, I've been fascinated by the world
+            of art and design. As I pursued my career in software development, I
+            found ways to incorporate my artistic background into my work, and
+            I'm always looking for new ways to push the boundaries of what's
+            possible. In my free time, I enjoy exploring the beautiful Colorado
+            outdoors, trying new restaurants, and practicing yoga to keep my
+            mind and body in balance. As an avid movie buff, I love discussing
+            the latest hits and exploring new stories. Whether you're looking
+            for a Full Stack Software Engineer or an artist, I'm always on the
+            lookout for new opportunities and collaborations. Please feel free
+            to browse my portfolio and get in touch!
+          </p>
         </div>
       </div>
     </div>
   );
 };
-
-//About me
-// Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.
-
-// Location:
-// Victoria, BC
-// Age:
-// 29
-// Nationality:
-// Canadian / Irish
-// Interests:
-// Motorcycles, Muay Thai, Banjos
-// Study:
-// University of Victoria
-// Employment:
-// Instant Domains, inc.
 
 export default About;
