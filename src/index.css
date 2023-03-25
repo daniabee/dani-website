@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  /* font-family: 'Arimo', sans-serif; */
   font-family: "Rubik", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(255, 69, 93);
+  overflow-x: hidden;
 }
 
 code {

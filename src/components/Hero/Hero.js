@@ -15,11 +15,11 @@ const Hero = () => {
         <div className="bubble x9"></div>
         <div className="bubble x10"></div>
         <div className="bubble x11"></div>
+        <div className="bubble x12"></div>
       </div>
       <div className="container">
         <div className="content">
-          <h2 className="welcome">HI THERE,</h2>
-          <h2 className="welcome">HI THERE,</h2>
+          <h2>HI THERE,</h2>
         </div>
         <div className="title">
           <h2 className="greeting">I'M DANI BAGLEY</h2>

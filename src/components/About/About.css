@@ -1,11 +1,44 @@
 .about {
-  margin: 5%;
+  margin: 3%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 2%;
   height: 85vh;
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgba(0, 0, 0, 0.227); */
   color: aliceblue;
-  border-radius: 2rem;
+  border-radius: 1rem;
+}
+
+.images {
+  display: flex;
+  width: 20vw;
+  height: 80vh;
+  justify-self: center;
+  flex-direction: column;
+  margin: 1%;
+}
+
+.img1 {
+  width: 22vw;
+  transform: rotate(0.01turn);
+  position: absolute;
+  box-shadow: 0 3em 2em 0.75em rgb(255, 38, 70);
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.img2 {
+  position: relative;
+  width: 11vw;
+  transform: rotate(-0.01turn);
+  box-shadow: -1em -0.5em 1.5em 0.2em rgb(255, 38, 70);
+}
+
+.bio {
+  width: 80vw;
+  justify-self: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
