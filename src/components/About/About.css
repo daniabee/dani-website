@@ -55,15 +55,16 @@
 .bioTitle {
   font-family: Antonio;
   margin: 0;
-  font-size: 6.5vw;
+  font-size: 6.9vw;
   text-align: left;
-  width: 60vw;
+  width: 70vw;
   color: rgb(0, 0, 0);
+  -webkit-text-stroke: 0.1rem rgb(255, 187, 197);
 }
 
 .paragraph {
-  margin-top: 0.4rem;
-  width: 50vw;
+  margin-top: 0.2rem;
+  width: 56vw;
   font-weight: 400;
   font-size: 1rem;
   text-align: left;
