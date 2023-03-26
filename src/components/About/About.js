@@ -11,8 +11,8 @@ const About = ({ about }) => {
           <img className="img2" src={image2} />
         </div>
         <div className="bio">
-          <h2 className="bioTitle">SOFTWARE ENGINEER</h2>
-          <h2 className="bioTitle">GRAPHIC DESIGNER</h2>
+          <h2 className="bioTitle">ENGINEER</h2>
+          <h2 className="bioTitle">DESIGNER</h2>
           <h2 className="bioTitle">ARTIST</h2>
           <p className="paragraph">
             Hi there, I'm Dani! I'm a Full Stack Software Engineer and artist
