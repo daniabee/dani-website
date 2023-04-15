@@ -34,7 +34,7 @@
   margin-left: 5%;
   margin-top: 0;
   margin-bottom: 0;
-  color: rgb(240, 248, 255);
+  color: rgb(178, 255, 255);
   font-size: 7.5em;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .content h2 {
-  color: #fff;
+  color: rgb(178, 255, 255);
   font-size: 7.5em;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -60,7 +60,7 @@
 
 .content h2:nth-child(1) {
   color: transparent;
-  -webkit-text-stroke: 0.15rem rgb(240, 248, 255);
+  -webkit-text-stroke: 0.15rem rgb(178, 255, 255);
 }
 
 @keyframes animate {

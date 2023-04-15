@@ -11,7 +11,7 @@
 }
 
 .link {
-  color: aliceblue;
+  color: rgb(178, 255, 255);
   text-decoration: none;
   display: inline;
   padding: 2rem 2rem;
@@ -21,7 +21,7 @@
 }
 
 .link:hover {
-  color: rgb(102, 204, 255);
+  color: rgb(102, 110, 255);
 }
 
 /* scroll to top button */
@@ -36,7 +36,7 @@
   width: 40px;
   border-radius: 50%;
   border: 2px solid #333;
-  background-color: #fff;
+  background-color: rgb(178, 255, 255);
   color: #333;
   cursor: pointer;
 }
@@ -44,8 +44,8 @@
 .top-btn-style:hover {
   animation: none;
   background-color: #333;
-  color: #fff;
-  border: 2px solid #fff;
+  color: rgb(178, 255, 255);
+  border: 2px solid rgb(178, 255, 255);
 }
 
 .socials {

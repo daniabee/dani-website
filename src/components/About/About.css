@@ -63,15 +63,13 @@
   font-size: 8.3vw;
   text-align: left;
   width: 70vw;
-  /* color: rgba(255, 114, 135); */
-  -webkit-text-stroke: 0.15rem rgb(255, 255, 255);
+  color: rgb(255, 69, 97);
+  -webkit-text-stroke: 0.15rem rgb(178, 255, 255);
 }
 
 .paragraph {
-  margin: 0;
   width: 50vw;
-  font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-align: left;
-  color: rgb(255, 255, 255);
+  color: rgb(178, 255, 255);
 }

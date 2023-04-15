@@ -15,20 +15,14 @@ const About = ({ about }) => {
           <h2 className="bioTitle">DESIGNER</h2>
           <h2 className="bioTitle">ARTIST</h2>
           <p className="paragraph">
-            Hi there, I'm Dani! I'm a Full Stack Software Engineer and artist
-            based in Denver, CO. With a passion for creativity and design, I
-            specialize in crafting digital experiences that engage users and
-            deliver results. From a young age, I've been fascinated by the world
-            of art and design. As I pursued my career in software development, I
-            found ways to incorporate my artistic background into my work, and
-            I'm always looking for new ways to push the boundaries of what's
-            possible. In my free time, I enjoy exploring the beautiful Colorado
-            outdoors, trying new restaurants, and practicing yoga to keep my
-            mind and body in balance. As an avid movie buff, I love discussing
-            the latest hits and exploring new stories. Whether you're looking
-            for a Full Stack Software Engineer or an artist, I'm always on the
-            lookout for new opportunities and collaborations. Please feel free
-            to browse my portfolio and get in touch!
+            Hi, I'm Dani, a Full Stack Software Engineer and artist based in
+            Denver, CO. I create engaging digital experiences by combining my
+            passion for creativity and design with my expertise in software
+            development. I love pushing the boundaries of what's possible and
+            incorporating my artistic background into my work. When I'm not
+            working, you can find me exploring the Colorado outdoors, trying new
+            restaurants, practicing yoga, and discussing the latest movies.
+            Check out my portfolio and let's collaborate!
           </p>
         </div>
       </div>
